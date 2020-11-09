@@ -3,8 +3,8 @@ class Nocalhost < Formula
   homepage "https://nocalhost.dev"
   version "v0.0.1"
 
-  darwin_url = "https://codingcorp-generic.pkg.coding.net/nocalhost/nhctl/darwin/nhctl?version=v0.0.1"
-  linux_x64_url = "https://codingcorp-generic.pkg.coding.net/nocalhost/nhctl/linux_x64/nhctl?version=v0.0.1"
+  darwin_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.0.1/nhctl_darwin"
+  linux_x64_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.0.1/nhctl_linux_x64"
 
   if OS.mac?
     url darwin_url
