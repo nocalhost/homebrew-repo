@@ -1,4 +1,4 @@
-class Kapp < Formula
+class Nocalhost < Formula
   desc "Nocalhost Control CLI(nhctl)"
   homepage "https://nocalhost.dev"
   version "v0.0.1"
