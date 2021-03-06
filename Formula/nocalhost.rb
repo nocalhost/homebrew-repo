@@ -8,10 +8,10 @@ class Nocalhost < Formula
 
   if OS.mac?
     url darwin_url
-    sha256 "7233c59568d4ddc9206f600931f33c0465eb50ae75f675b046afe950d408eda9"
+    sha256 "7509ed746275731b03cce8fc3880ce058bb872d1b9220a8e3bfb7e23d49c7041"
   elsif OS.linux?
     url linux_x64_url
-    sha256 "a8f2e449661c7cfd5c2731913aebe78c3e302de725579aa5c281022784a46c53"
+    sha256 "a32673b673beb97c1544fdc7de9613593d66cc1d0bee32a0fb7f99ad9cc8b94c"
   end
 
   depends_on :arch => :x86_64
