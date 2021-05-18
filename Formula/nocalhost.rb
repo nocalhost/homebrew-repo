@@ -1,7 +1,7 @@
 class Nocalhost < Formula
   desc "Nocalhost Control CLI(nhctl)"
   homepage "https://nocalhost.dev"
-  version "v0.4.1-rc3"
+  version "v0.4.1-rc8"
 
   darwin_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.4.1-rc8/nhctl-darwin-amd64"
   linux_x64_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.4.1-rc8/nhctl-linux-amd64"
