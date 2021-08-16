@@ -1,17 +1,17 @@
 class Nocalhost < Formula
   desc "Nocalhost Control CLI(nhctl)"
   homepage "https://nocalhost.dev"
-  version "v0.4.26"
+  version "v0.5.0"
 
-  darwin_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.4.26/nhctl-darwin-amd64"
-  linux_x64_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.4.26/nhctl-linux-amd64"
+  darwin_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.5.0/nhctl-darwin-amd64"
+  linux_x64_url = "https://github.com/nocalhost/nocalhost/releases/download/v0.5.0/nhctl-linux-amd64"
 
   if OS.mac?
     url darwin_url
-    sha256 "df38e0378ba66a8e8bd9d9bdfc887bb79c120e6c0af5ca659f253f55434594d1"
+    sha256 "f9534c30caf6ed155fac7fa86ebeb61ed5b119edfc81b1135baba803b2cbc8ef"
   elsif OS.linux?
     url linux_x64_url
-    sha256 "51c30e444240b0ea968692c254c01fb55fed6d500eb3cc1f93bd87702abb1a45"
+    sha256 "c71e894a785ba311ea0a1e6650209fbd4163cdd33d5f6ad4c3be907ee93ac7c2"
   end
 
   depends_on :arch => :x86_64
